@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Blah blah blah blah </title>
+</head>
+
+<body>
+
+
+
+
+<script>
+	var random;
+	var userInput;
+	var msg;
+	var num = 4;
+
+	random = Math.floor((Math.random() *10) + 1);
+	userInput = Number(prompt("Guess a number between 1 and 10!"));
+
+while (userInput != random) {
+  
+  	if (userInput > random) {
+    	userInput = Number(prompt("Go Lower!"));
+  } 
+   	else if (userInput < random) {   
+    	userInput = userInput = Number(prompt("Go Higher!"));
+  }
+};
+
+if (userInput === num){
+	msg = "Congratulations";
+		console.log(msg);
+  		document.write = "Congratulations!!!!";
+};
+
+
+
+</script>
+
+</body>
+</html>
