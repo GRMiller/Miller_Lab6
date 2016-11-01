@@ -27,5 +27,7 @@ answers.push(answer2);
 answers.push(answer3);
 answers.push(answer4);
 
+document.write('212 degrees Farenheit = ' + answer1 + ' degrees Celsius.' +  '    32 degrees Farenheit = ' + answer2 + ' degrees Celsius.' + '   65 degrees Farenheit = ' + answer3 + ' degrees Celsius.' + '    -40 degrees Celsius = ' + answer4 + ' degrees Farenheit.' )
+
 console.log(answers);
 document.write('Here are the unformatted answers: ' + answers);
